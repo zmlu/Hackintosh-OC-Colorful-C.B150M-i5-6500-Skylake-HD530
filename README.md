@@ -27,6 +27,25 @@
 
 详细配置见Report.txt
 
+## 主板配置
+
+如果你跟我的主板型号和系统版本一样可以参考括号中的位置，使用shell修改
+
+### 禁用
+
+* CFG lock (0x11F 设为 0x0)
+* VT-d (0x496 设为 0x0)
+* SGX (0x1CA 设为 0x0)
+* CSM (0xE17 设为 0x0)
+* RTC Lock (0x5A5 设为 0x0)
+
+### 启用
+
+* Above 4G Decoding (0xDEC 设为 0x1)
+* Hyper-threading (0xE9 设为 0x1)
+* Execute Disable Bit (0x272 设为 0x1)
+* EHCI Hand-off (0x2 设为 0x1)
+
 ## OpenCore及相关驱动软件版本
 
 * OpenCore 7.1
