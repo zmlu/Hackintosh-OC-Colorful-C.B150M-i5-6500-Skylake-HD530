@@ -7,7 +7,7 @@
 ## 支持系统
 
 * macOS Monterey 12.0.1 (21A559)
-ß
+
 ## 公司电脑配置
 
 * 主板厂商：Colorful Technology And Development Co.,LTD
