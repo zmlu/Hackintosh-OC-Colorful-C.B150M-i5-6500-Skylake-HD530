@@ -2,21 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#Build Date</key>
-	<string>7-21-2021</string>
-	<key>#Maker by</key>
-	<string>爱玩黑果的小姐姐</string>
-	<key>#OpenCore Version</key>
-	<string>v0.7.1 Release</string>
-	<key>#Posted on</key>
-	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>仿冒并覆盖嵌入式控制器，并强制USB电源属性</string>
+				<string>Counterfeit and overwrite embedded controllers and force USB power properties</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +16,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>启用CPU原生电源管理</string>
+				<string>Enable CPU native power management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>添加缺失设备，APP9876，NVRAM相关</string>
+				<string>Add missing device APP9876NVRAM related</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -99,6 +91,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -629,7 +623,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02506303GUGPF71H</string>
+			<string>C02513300CDGPF71M</string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
 			<key>ROM</key>
@@ -641,35 +635,35 @@
 			<key>SystemProductName</key>
 			<string>iMac17,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P7BZUGG7L</string>
+			<string>C02PH0QBGG7L</string>
 			<key>SystemUUID</key>
-			<string>2CF45A75-10D1-474E-BAFE-757CD088F1D9</string>
+			<string>CBDE4A87-A72D-45B9-8164-677016836432</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
 			<string>Mac-DB15BD556843C820</string>
 			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
+			<data>N+EP/AgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
+			<data>P/8f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02506303GUGPF71H</string>
+			<string>C02513300CDGPF71M</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02PH0QBGG7L</string>
 			<key>SystemUUID</key>
-			<string>2CF45A75-10D1-474E-BAFE-757CD088F1D9</string>
+			<string>CBDE4A87-A72D-45B9-8164-677016836432</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>06/13/2021</string>
+			<string>09/25/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>429.140.8.0.0</string>
+			<string>447.40.12.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -679,7 +673,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-DB15BD556843C820</string>
 			<key>BoardSerialNumber</key>
-			<string>C02506303GUGPF71H</string>
+			<string>C02513300CDGPF71M</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -689,15 +683,15 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02P7BZUGG7L</string>
+			<string>C02PH0QBGG7L</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
 			<string>Mac-DB15BD556843C820</string>
 			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
+			<data>N+EP/AgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
+			<data>P/8f/wgAAAA=</data>
 			<key>PlatformFeature</key>
 			<integer>0</integer>
 			<key>ProcessorType</key>
@@ -713,9 +707,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P7BZUGG7L</string>
+			<string>C02PH0QBGG7L</string>
 			<key>SystemUUID</key>
-			<string>2CF45A75-10D1-474E-BAFE-757CD088F1D9</string>
+			<string>CBDE4A87-A72D-45B9-8164-677016836432</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -753,6 +747,8 @@
 			<string>Builtin</string>
 			<key>CustomDelays</key>
 			<false/>
+			<key>GraphicsInputMirroring</key>
+			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
@@ -787,9 +783,36 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
-			<string>OpenCanopy.efi</string>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>HfsPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -888,6 +911,8 @@
 			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForceOcWriteFlash</key>
+			<false/>
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
@@ -898,6 +923,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>

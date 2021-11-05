@@ -49,8 +49,14 @@
 
 ## OpenCore及相关驱动软件版本
 
-* OpenCore 7.1
+* OpenCore 7.5
+* AppleALC.kext 1.6.6
+* Lilu.kext 1.5.7
+* VirtualSMC.kext 1.2.7
+* WhateverGreen.kext 1.5.5
+* RealtekRTL8111.kext V2.4.2
 
 ## 更新日志
 
+* 2021.11.05 更新 OC 到 7.5 和 Kext 驱动
 * 2021.08.06 新增配置
