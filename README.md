@@ -49,14 +49,27 @@ If you have the same as my motherboard model and system version, you can refer t
 
 ## OpenCore Version
 
-* OpenCore 7.5
+* OpenCore 7.6-f2bc242
 * AppleALC.kext 1.6.6
 * Lilu.kext 1.5.7
 * VirtualSMC.kext 1.2.7
 * WhateverGreen.kext 1.5.5
 * RealtekRTL8111.kext V2.4.2
+* AppleMCEReporterDisabler.kext
+* CPUFriend.kext 1.2.4
+* CPUFriendDataProvider.kext (Mac-7BA5B2D9E42DDD94)
 
 ## Update Log
 
-* 2021.11.05 Update OC to 7.5 and Kexts
-* 2021.08.06 Add new configuration
+* 2021.11.15
+  * Update OpenCore to 7.6-f2bc242 development version
+  * Modified SMBIOS to iMacPro1,1 to unlock Apple Music Lossless format playback
+  * Removed USBPorts.kext because of updated SMBIOS and added USBInjectAll.kext
+  * Because of updated SMBIOS Added AppleMCEReporterDisabler.kext to prevent kernel crash
+  * Added CPUFriend.kext, CPUFriendDataProvider.kext to enable RWD
+
+* 2021.11.05
+  * Update OpenCore to 7.5 and Kext driver
+
+* 2021.08.06
+  * New configuration

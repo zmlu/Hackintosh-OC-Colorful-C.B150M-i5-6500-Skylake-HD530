@@ -49,14 +49,27 @@
 
 ## OpenCore及相关驱动软件版本
 
-* OpenCore 7.5
+* OpenCore 7.6-f2bc242
 * AppleALC.kext 1.6.6
 * Lilu.kext 1.5.7
 * VirtualSMC.kext 1.2.7
 * WhateverGreen.kext 1.5.5
 * RealtekRTL8111.kext V2.4.2
+* AppleMCEReporterDisabler.kext
+* CPUFriend.kext 1.2.4
+* CPUFriendDataProvider.kext (Mac-7BA5B2D9E42DDD94)
 
 ## 更新日志
 
-* 2021.11.05 更新 OC 到 7.5 和 Kext 驱动
-* 2021.08.06 新增配置
+* 2021.11.15
+  * 更新 OpenCore 为 7.6-f2bc242 开发版
+  * 修改 SMBIOS 为 iMacPro1,1 来解锁 Apple Music Lossless 格式播放
+  * 因为更新了SMBIOS 删除 USBPorts.kext 新增 USBInjectAll.kext
+  * 因为更新 SMBIOS 新增 AppleMCEReporterDisabler.kext，防止内核崩溃
+  * 新增 CPUFriend.kext、CPUFriendDataProvider.kext 来实现睿频
+
+* 2021.11.05
+  * 更新 OpenCore 为 7.5 和 Kext 驱动
+
+* 2021.08.06
+  * 新增配置
