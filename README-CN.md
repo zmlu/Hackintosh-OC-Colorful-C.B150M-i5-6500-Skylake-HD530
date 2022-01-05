@@ -61,6 +61,9 @@
 
 ## 更新日志
 
+* 2022.01.05
+  * 更新 OpenCore 为 7.6-7266ec9 正式版
+
 * 2021.11.15
   * 更新 OpenCore 为 7.6-f2bc242 开发版
   * 修改 SMBIOS 为 iMacPro1,1 来解锁 Apple Music Lossless 格式播放
