@@ -6,7 +6,7 @@ Company computer's Hackintosh OpenCore configuration
 
 ## Support macOS Versions
 
-* macOS Monterey 12.0.1 (21A559)
+* macOS Monterey 12.3 (21E230)
 
 ## Company Computer Hardware
 
@@ -49,31 +49,36 @@ If you have the same as my motherboard model and system version, you can refer t
 
 ## OpenCore Version
 
-* OpenCore 7.7-027a2ef
-* AppleALC.kext 1.6.8-206d684
+* OpenCore 0.7.9-c91eebf
+* AppleALC.kext 1.7.0
 * Lilu.kext 1.5.9-bd48fa7
-* VirtualSMC.kext 1.2.9-bab6fd5
-* WhateverGreen.kext 1.5.6-11d77da
+* VirtualSMC.kext 1.2.9
+* WhateverGreen.kext 1.5.8
 * RealtekRTL8111.kext V2.4.2
 * AppleMCEReporterDisabler.kext
-* CPUFriend.kext 1.2.4
+* CPUFriend.kext 1.2.5
 * CPUFriendDataProvider.kext (Mac-7BA5B2D9E42DDD94)
+* FeatureUnlock.kext 1.0.7
 
 ## Update Log
 
+* 2022.03.08
+  * Update OpenCore to 0.7.9-c91eebf development version
+  * Update AppleALC.kext、Lilu.kext、VirtualSMC.kext、WhateverGreen.kext、CPUFriend.kext
+
 * 2022.01.05
-  * Update OpenCore to 7.7-027a2ef development version
+  * Update OpenCore to 0.7.7-027a2ef development version
   * Update AppleALC.kext, Lilu.kext, VirtualSMC.kext, WhateverGreen.kext
 
 * 2021.11.15
-  * Update OpenCore to 7.6-f2bc242 development version
+  * Update OpenCore to 0.7.6-f2bc242 development version
   * Modified SMBIOS to iMacPro1,1 to unlock Apple Music Lossless format playback
   * Removed USBPorts.kext because of updated SMBIOS and added USBInjectAll.kext
   * Because of updated SMBIOS Added AppleMCEReporterDisabler.kext to prevent kernel crash
   * Added CPUFriend.kext, CPUFriendDataProvider.kext to enable RWD
 
 * 2021.11.05
-  * Update OpenCore to 7.5 and Kext driver
+  * Update OpenCore to 0.7.5 and Kext driver
 
 * 2021.08.06
   * New configuration
