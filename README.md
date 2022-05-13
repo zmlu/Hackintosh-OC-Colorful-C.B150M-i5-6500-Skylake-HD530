@@ -49,18 +49,22 @@ If you have the same as my motherboard model and system version, you can refer t
 
 ## OpenCore Version
 
-* OpenCore 0.7.9-c91eebf
-* AppleALC.kext 1.7.0
-* Lilu.kext 1.5.9-bd48fa7
-* VirtualSMC.kext 1.2.9
-* WhateverGreen.kext 1.5.8
+* OpenCore 0.8.1-59fd524
+* AppleALC.kext 1.7.2-87bc215
+* Lilu.kext 1.6.1-1d2fd79
+* VirtualSMC.kext 1.3.0-d37eb3f
+* WhateverGreen.kext 1.5.9-fd79621
 * RealtekRTL8111.kext V2.4.2
 * AppleMCEReporterDisabler.kext
-* CPUFriend.kext 1.2.5
+* CPUFriend.kext 1.2.6-72124c1
 * CPUFriendDataProvider.kext (Mac-7BA5B2D9E42DDD94)
-* FeatureUnlock.kext 1.0.7
+* FeatureUnlock.kext 1.0.9-dd72c9e
 
 ## Update Log
+
+* 2022.05.13
+  * Update OpenCore 为 0.8.1-59fd524 development version
+  * Update AppleALC.kext、Lilu.kext、VirtualSMC.kext、WhateverGreen.kext、CPUFriend.kext、FeatureUnlock.kext
 
 * 2022.03.08
   * Update OpenCore to 0.7.9-c91eebf development version
