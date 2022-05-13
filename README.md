@@ -6,7 +6,7 @@ Company computer's Hackintosh OpenCore configuration
 
 ## Support macOS Versions
 
-* macOS Monterey 12.3 (21E230)
+* macOS Monterey 12.4 (21F79)
 
 ## Company Computer Hardware
 
