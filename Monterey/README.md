@@ -1,3 +1,4 @@
+# macOS Monterey (12.x)
 
 ## Support Versions
 
@@ -34,12 +35,6 @@ iMac 17,1
 | CPUFriend.kext             | 1.2.6                |
 | CPUFriendDataProvider.kext | Mac-DB15BD556843C820 |
 | FeatureUnlock.kext         | 1.0.9                |
-
-## CPUFriendDataProvider.kext Shell
-
-```shell
-./ResourceConverter.sh --kext /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-DB15BD556843C820.plist
-```
 
 ## Update Log
 

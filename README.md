@@ -53,6 +53,36 @@ If you have the same as my motherboard model and system version, you can refer t
 * Execute Disable Bit (0x272 Set to 0x1)
 * EHCI Hand-off (0x2 Set to 0x1)
 
+## Attention ⚠️
+
+Please change MLB, SystemSerialNumber, SystemUUID into your own `config.plist`
+
+```xml
+<dict>
+    ...
+    <key>MLB</key>
+    <string>xxxxxxxxxxxxxxx</string>
+    ...
+    <key>SystemSerialNumber</key>
+    <string>xxxxxxxxxxx</string>
+    ...
+    <key>SystemUUID</key>
+    <string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
+</dict>
+```
+
+## How to
+
+### Generate your own `CPUFriendDataProvider.kext`
+
+1. Download the **RELEASE** version of `CPUFriend.kext` from [HERE](https://dortania.github.io/builds/?product=CPUFriend&viewall=true).
+2. Unzip the archives.
+3. Run the shell bellow in `Terminal.app`.
+
+```shell
+./ResourceConverter.sh --kext /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-DB15BD556843C820.plist
+```
+
 
 
 
