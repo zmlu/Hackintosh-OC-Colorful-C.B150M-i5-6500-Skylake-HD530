@@ -6,7 +6,7 @@
 
 ## 支持系统
 
-* macOS Monterey 12.4 (21F79)
+* macOS Monterey 12.5 Beta (21G5037d)
 
 ## 公司电脑配置
 
