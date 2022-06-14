@@ -1,6 +1,6 @@
 # Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530
 
-Company computer's Hackintosh OpenCore configuration
+Hackintosh OpenCore configuration
 
 ## Support macOS Versions
 
@@ -14,23 +14,16 @@ Support Status Explanation：
 * ⚠️ Partially supported, consumer version only
 * 🚧 Exploration in progress, not supported
 
-## Company Computer Hardware
+## Computer Hardware
 
 * Motherboard Brand: Colorful Technology And Development Co.,LTD
-* Motherboard Model: Battle Axe C.B150M-HD
-* Motherboard Version: V20
+* Motherboard Model: Battle Axe C.B150M-HD (V20)
 * Motherboard Chipset: Intel Sunrise Point B150, Intel Skylake-S
 
 * CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
 * Graphics Card: Intel HD Graphics 530
 * Nvidia/AMD Graphics Card: None
 * Audio Card：Realtek ALC662
-
-* Memory Slot 1: Tigo-2133Mhz-8G-DDR4
-* Memory Slot 2: Tigo-2133Mhz-8G-DDR4
-
-* Hard Disk 1: HDD：KINGSTON SA400S37240G  (240 GB, SATA-III)
-* Hard Disk 2: SSD：WDC WD10EZEX-75WN4A0  (1 TB, 7200 RPM, SATA-III)
 
 See detailed configuration at Report.txt(CN)
 
@@ -55,7 +48,7 @@ If you have the same as my motherboard model and system version, you can refer t
 
 ## Attention ⚠️
 
-Please change MLB, SystemSerialNumber, SystemUUID into your own `config.plist`
+Please change MLB, SystemSerialNumber, SystemUUID into your own `config.plist`.
 
 ```xml
 <dict>
@@ -76,7 +69,7 @@ Please change MLB, SystemSerialNumber, SystemUUID into your own `config.plist`
 ### Generate your own `CPUFriendDataProvider.kext`
 
 1. Download the **RELEASE** version of `CPUFriend.kext` from [HERE](https://dortania.github.io/builds/?product=CPUFriend&viewall=true).
-2. Unzip the archives.
+2. Unzip the archive.
 3. Run the shell bellow in `Terminal.app`.
 
 ```shell
