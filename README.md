@@ -4,8 +4,6 @@ Company computer's Hackintosh OpenCore configuration
 
 ## Support macOS Versions
 
-## 支持系统
-
 | Versions         | Support Status | Path                                                                                                          |
 |-----------------------|:-------:|--------------------------------------------------------------------------------------------------------------|
 | macOS Monterey (12.x) |    ✅    | [/Monterey](https://github.com/zmlu/Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530/tree/main/Monterey) |
