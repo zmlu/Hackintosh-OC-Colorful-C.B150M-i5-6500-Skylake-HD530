@@ -80,6 +80,7 @@ Please change MLB, SystemSerialNumber, SystemUUID into your own `config.plist`.
 ./ResourceConverter.sh --kext /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-DB15BD556843C820.plist
 ```
 
+> Note: `Mac-DB15BD556843C820` is your `BID` value in config.plist, Please change it according to SMBIOS
 
 
 
