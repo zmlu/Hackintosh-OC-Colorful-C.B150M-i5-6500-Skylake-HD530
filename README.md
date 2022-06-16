@@ -2,12 +2,16 @@
 
 Hackintosh OpenCore configuration
 
+## What's New
+
+New Config Support macOS 13 (Ventura) 🎉
+
 ## Support macOS Versions
 
 | Versions              | Support Status | Path                                                                                                         |
 |-----------------------|:--------------:|--------------------------------------------------------------------------------------------------------------|
 | macOS Monterey (12.x) |       ✅        | [/Monterey](https://github.com/zmlu/Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530/tree/main/Monterey) |
-| macOS Ventura (13.x)  |       🚧       | [/Ventura](https://github.com/zmlu/Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530/tree/main/Ventura)   |
+| macOS Ventura (13.x)  |       ✅        | [/Ventura](https://github.com/zmlu/Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530/tree/main/Ventura)   |
 
 Support Status Explanation：
 * ✅ Fully supported, including developer versions
