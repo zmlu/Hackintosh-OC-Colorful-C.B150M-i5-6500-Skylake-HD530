@@ -13,6 +13,7 @@
 | 12.3.1         | 21E258   |       ✅        |
 | 12.4           | 21F79    |       ✅        |
 | 12.5 beta 2	   | 21G5037d |       ✅        |
+| 12.5 beta 3	   | 21G5046c |       ✅        |
 
 Support Status Explanation：
 * ✅ Fully supported, including developer versions
