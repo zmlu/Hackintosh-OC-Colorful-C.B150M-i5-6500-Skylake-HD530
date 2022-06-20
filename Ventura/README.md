@@ -31,9 +31,9 @@ iMac 18,1
 
 | Kext                       | Version              |
 |----------------------------|----------------------|
-| OpenCore                   | 0.8.2                |
+| OpenCore                   | 0.8.2-714fc69        |
 | AppleALC.kext              | 1.7.3                |
-| Lilu.kext                  | 1.6.1                |
+| Lilu.kext                  | 1.6.1-9775e8b        |
 | VirtualSMC.kext            | 1.3.0                |
 | WhateverGreen.kext         | 1.6.0                |
 | CPUFriend.kext             | 1.2.6                |
@@ -45,6 +45,10 @@ iMac 18,1
 * Sleep - Sleeps but won't wake
 
 ## Update Log
+
+* 2022.06.20
+  * Fix bug: installation failed via OTA.
+  * Update OC: support `AvoidRuntimeDefrag` on Ventura.
 
 * 2022.06.16
     * New Config Support macOS 13 (Ventura) 🎉
