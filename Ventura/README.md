@@ -23,6 +23,12 @@ Support Status Explanation：
 | -disablegfxfirmware | To avoid firmware load endless loop                                        |
 | -wegnoegpu          | To disable all external GPUs (NVIDIA and AMD). Mainly required on Laptops. |
 
+## Images
+
+![info](https://raw.githubusercontent.com/zmlu/Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530/main/Ventura/images/ventura_info.png "info")
+
+![Stage Manager](https://raw.githubusercontent.com/zmlu/Hackintosh-OC-Colorful-C.B150M-i5-6500-Skylake-HD530/main/Ventura/images/ventura_stage_manager.png "Stage Manager")
+
 ## SMBIOS
 
 iMac 18,1
