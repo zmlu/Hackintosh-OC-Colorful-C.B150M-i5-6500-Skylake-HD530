@@ -40,10 +40,6 @@ iMac 18,1
 | CPUFriendDataProvider.kext | Mac-4B682C642B45593E |
 | FeatureUnlock.kext         | 1.0.9                |
 
-## What does NOT work ⚠️
-
-* Sleep - Sleeps but won't wake
-
 ## Update Log
 
 * 2022.06.20
