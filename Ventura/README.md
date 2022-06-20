@@ -35,7 +35,7 @@ iMac 18,1
 | AppleALC.kext              | 1.7.3                |
 | Lilu.kext                  | 1.6.1-9775e8b        |
 | VirtualSMC.kext            | 1.3.0                |
-| WhateverGreen.kext         | 1.6.0                |
+| WhateverGreen.kext         | 1.6.0-ade6c98        |
 | CPUFriend.kext             | 1.2.6                |
 | CPUFriendDataProvider.kext | Mac-4B682C642B45593E |
 | FeatureUnlock.kext         | 1.0.9                |
@@ -45,6 +45,7 @@ iMac 18,1
 * 2022.06.20
   * Fix bug: installation failed via OTA.
   * Update OC: support `AvoidRuntimeDefrag` on Ventura.
+  * WhateverGreen support `-igfxsklaskbl` boot args, so drop `SKLAsKBLGraphicsInfo.kext`.
 
 * 2022.06.16
     * New Config Support macOS 13 (Ventura) 🎉
