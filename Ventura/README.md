@@ -9,6 +9,7 @@ The solution is to modify the config.plist and spoof the GPU properties SKL as K
 | macOS Versions | Build    | Support Status |
 |----------------|----------|:--------------:|
 | 13.0 beta 1    | 22A5266r |       ✅        |
+| 13.0 beta 2    | 22A5286j |       ✅        |
 
 Support Status Explanation：
 * ✅ Fully supported, including developer versions
