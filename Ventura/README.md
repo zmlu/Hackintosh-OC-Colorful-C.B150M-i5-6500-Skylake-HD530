@@ -4,6 +4,8 @@ Unfortunately, with the announcement of macOS Ventura, Apple has officially drop
 
 The solution is to modify the config.plist and spoof the GPU properties SKL as KBL.
 
+There is a more detailed description in my blog post (Chinese): [Skylake 如何吃上最新黑苹果 macOS  Ventura](https://jacoblu.me/2022/06/17/skylake-hackintosh/)
+
 ## Support Versions
 
 | macOS Versions | Build    | Support Status |
@@ -21,6 +23,7 @@ Support Status Explanation：
 | Boot Args           | Notes                                                                      |
 |---------------------|----------------------------------------------------------------------------|
 | lilucpu=9           | Spoofs CPU Generation as KBL.                                              |
+| -igfxsklaskbl	      | Spoofs GPU Generation as KBL.                                              |
 | -disablegfxfirmware | To avoid firmware load endless loop                                        |
 | -wegnoegpu          | To disable all external GPUs (NVIDIA and AMD). Mainly required on Laptops. |
 
