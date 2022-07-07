@@ -10,8 +10,7 @@ There is a more detailed description in my blog post (Chinese): [Skylake 如何�
 
 | macOS Versions | Build    | Support Status |
 |----------------|----------|:--------------:|
-| 13.0 beta 1    | 22A5266r |       ✅        |
-| 13.0 beta 2    | 22A5286j |       ✅        |
+| 13.0 beta 3    | 22A5295h |       ✅        |
 
 Support Status Explanation：
 * ✅ Fully supported, including developer versions
