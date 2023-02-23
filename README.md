@@ -2,9 +2,9 @@
 
 Hackintosh OpenCore configuration
 
-## What's New
+## More posts about hackintosh
 
-New Config Support macOS 13 (Ventura) 🎉
+[Welcome to visit my site (zh)](https://banmiya.com/tags/hackintosh)
 
 ## Support macOS Versions
 
