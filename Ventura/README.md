@@ -41,16 +41,19 @@ iMac 18,1
 
 | Kext                       | Version              |
 |----------------------------|----------------------|
-| OpenCore                   | 0.8.2-714fc69        |
-| AppleALC.kext              | 1.7.3                |
-| Lilu.kext                  | 1.6.1-9775e8b        |
-| VirtualSMC.kext            | 1.3.0                |
-| WhateverGreen.kext         | 1.6.0-ade6c98        |
+| OpenCore                   | 0.9.1-852016c        |
+| AppleALC.kext              | 1.8.1-274381c        |
+| Lilu.kext                  | 1.6.5-3f61754        |
+| VirtualSMC.kext            | 1.3.2-87e726c        |
+| WhateverGreen.kext         | 1.6.5-6aaea33        |
 | CPUFriend.kext             | 1.2.6                |
 | CPUFriendDataProvider.kext | Mac-4B682C642B45593E |
-| FeatureUnlock.kext         | 1.0.9                |
+| FeatureUnlock.kext         | 1.1.4-ec664b2        |
 
 ## Update Log
+
+* 2023.03.29
+  * Update OpenCore and Kexts versions.
 
 * 2022.06.20
   * Fix bug: installation failed via OTA.
