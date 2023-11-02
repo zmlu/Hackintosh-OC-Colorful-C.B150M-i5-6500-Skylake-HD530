@@ -4,7 +4,7 @@ Unfortunately, with the announcement of macOS Ventura, Apple has officially drop
 
 The solution is to modify the config.plist and spoof the GPU properties SKL as KBL.
 
-There is a more detailed description in my blog post (Chinese): [Skylake 如何吃上最新黑苹果 macOS  Ventura](https://banmiya.com/posts/skylake-hackintosh)
+There is a more detailed description in my blog post (Chinese): [Skylake 如何吃上最新黑苹果 macOS  Ventura](https://banmiya.com/skylake-hackintosh)
 
 
 ## Support Versions
