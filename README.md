@@ -2,10 +2,6 @@
 
 Hackintosh OpenCore configuration
 
-## More posts about hackintosh
-
-[Welcome to visit my site (zh)](https://banmiya.com/tags/hackintosh)
-
 ## Support macOS Versions
 
 | Versions              | Support Status | Path                                                                                                         |
